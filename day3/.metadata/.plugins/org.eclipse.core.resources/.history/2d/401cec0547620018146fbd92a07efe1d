@@ -1,0 +1,34 @@
+package kadai4;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class ButtonPanel extends JPanel implements ActionListener{
+	  public JButton b1,b2,b3,b4,b5;
+	  public JPanel p1, p2;
+	  private CirclePanel p;
+	  ButtonPanel(){
+		  p = new CirclePanel();
+		  
+		  b1 = new JButton();
+		  b2 = new JButton();
+		  b3 = new JButton();
+		  b4 = new JButton("5");
+		  b5 = new JButton("10");
+		  p1 = new JPanel();
+		  p2 = new JPanel();
+		  
+		  b1.setBackground(Color.yellow);
+		  b2.setBackground(Color.black);
+		  b3.setBackground(Color.white);
+		  
+		  p1.setLayout(new GridLayout(3,1));
+		  p2.setLayout(new GridLayout(2,1));
+		  
+		  p1.add(b1);p1.add(b2);p1.add(b3);
+		  p2.add(b4);p2.add(b5);
+		  
+	  }
+  
+}

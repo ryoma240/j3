@@ -1,0 +1,37 @@
+package kadai1;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class ObserverRadix extends JFrame{
+	  private TextFieldObserver hex, dec,a,b;
+	  private IntObservable intVal;
+	   
+	  public ObserverRadix() {
+	    intVal = new IntObservable();
+	    hex = new TextFieldObserver(intVal, 16);
+	    dec = new TextFieldObserver(intVal, 10);
+	    a = new TextFieldObserver(intVal,2);
+	    b = new TextFieldObserver(intVal,8);
+	    
+	    this.setSize(300, 200);
+	    this.setLayout(new GridLayout(3,2));
+	    this.add(new JLabel("16"));
+	    this.add(hex);
+	    this.add(new JLabel("10"));
+	    this.add(dec);
+	    this.add(new JLabel("2"));
+	    this.add(a);
+	    this.add(new JLabel("8"));
+	    this.add(b);
+	    
+	    //this.pack();
+	    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    this.setVisible(true);
+	  }
+	  public static void main(String[] args) {
+	    new ObserverRadix();
+	  }
+	
+
+}

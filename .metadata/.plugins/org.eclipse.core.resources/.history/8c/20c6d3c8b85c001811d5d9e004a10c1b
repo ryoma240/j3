@@ -1,0 +1,12 @@
+package kadai7;
+
+public class main {
+
+	public static void main(String argv[]) {
+		Lesson l = new Lesson("Pro Enshu","Yanai",100);
+	    l.add(new student("01220","Dentsu Taro",80));
+	    l.sort_grade();
+	    l.print();
+	}
+
+}

@@ -1,0 +1,288 @@
+!SESSION 2018-05-21 13:42:10.265 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.205
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/plugins/net.sf.eclipse.tomcat_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.229
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.231
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.233
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.235
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.237
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.240
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.242
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.273
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/plugins/net.sf.eclipse.tomcat_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.283
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.285
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.286
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.288
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.290
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.292
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.294
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.338
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/plugins/net.sf.eclipse.tomcat_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.340
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.342
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.344
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.346
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.348
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.349
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.351
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.373
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/plugins/net.sf.eclipse.tomcat_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.375
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.376
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_3.3.6.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.378
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.380
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.0.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.381
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.383
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-05-21 13:42:14.384
+!MESSAGE 次の生成中に​​ PluginConverter サービスを取得できません: /usr/local/eclipse/features/net.sf.eclipse.tomcat.feature_9.1.2.jar.
+
+!ENTRY org.eclipse.jface 2 0 2018-05-21 13:42:50.213
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-21 13:42:50.213
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat 開始、停止,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cdb290c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77f95e19,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:44:43.675
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:44:43.677
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:44:43.684
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:44:44.029
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:44:44.031
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:44:44.035
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:54:55.187
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:603)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:57:59.560
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:603)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 13:58:37.648
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:603)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 14:00:23.701
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:603)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2018-05-21 14:27:04.846
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-21 14:38:55.743
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:603)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-05-23 13:19:46.342 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2018-05-23 13:20:03.449
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-23 13:20:03.449
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat 開始、停止,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dbe858f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@387ef6a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-05-23 13:20:34.035 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2018-05-23 13:20:59.019
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-23 13:20:59.019
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat 開始、停止,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25b87e1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@623a891d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-05-23 13:48:25.614 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2018-05-23 13:48:33.563
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-23 13:48:33.563
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat 開始、停止,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fb51e17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,選択されたローカル・ターミナルを開く,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@722d3ddb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

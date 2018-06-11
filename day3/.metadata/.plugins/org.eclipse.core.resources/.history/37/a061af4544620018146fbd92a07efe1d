@@ -1,0 +1,22 @@
+package kadai4;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class CircleFrame  extends JFrame{
+    private CirclePanel panel;
+    public CircleFrame(){
+      this.setTitle("CircleFrame");
+      this.setSize(500,500);
+      panel=new CirclePanel();
+      this.add(panel);
+      this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      this.setVisible(true);
+    }
+ 
+    public static void main(String argv[]) {
+      new CircleFrame();
+    }
+}
+

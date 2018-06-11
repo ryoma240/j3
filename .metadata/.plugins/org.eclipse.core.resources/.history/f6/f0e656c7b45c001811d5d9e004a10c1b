@@ -1,0 +1,31 @@
+package kadai7;
+
+public class Lesson {
+	private String name;    // 課題名
+	  private String teacher; // 担当者 
+	  private int max;        // 最大履修者数
+	  private int num;        // 登録履修者数
+	  private student st[];   // Student class の配列
+	 
+	  public Lesson(String name,String teacher,int max){
+	    this.name=name;
+	    this.teacher=teacher;
+	    this.max=max;  
+	    this.num=0;          // num は 0 に初期化．
+	    st=new student[max]; // 配列の確保(オブジェクトは別に生成する必要がある)
+	  }
+	  public void add(student s) {
+	    st[this.num++] = s; 
+	  }
+	  int i;
+	  public void print() {
+		  System.out.println("Lesson            :"+name);
+		  System.out.println("Teacher           :"+teacher);
+		  System.out.println("Nunber of Students:"+num);
+		  for(i = 0; i < num; i++) {
+			  st[i].print_short();
+		  }
+		  System.out.println("----------");  
+	  }
+	
+}

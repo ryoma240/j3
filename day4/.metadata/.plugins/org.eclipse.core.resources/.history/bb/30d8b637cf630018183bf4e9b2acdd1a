@@ -1,0 +1,25 @@
+package kadai2;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+
+public class TimeObserver implements Observer, ActionListener{
+	private TimeObservable timeVal;
+	private int diff;
+	public TimeObserver(TimeObservable t, int d) {
+		timeVal = t;
+		diff = d;
+		timeVal.addObserver(this);
+		this.addActionListener(this);
+	}
+	public void actionPerformed(ActionEvent e) {
+		timeVal.setValue();
+	}
+	public void update(Observable o, Object arg) {
+		String s = timeVal.getValue(diff);
+		
+	}
+	
+}
