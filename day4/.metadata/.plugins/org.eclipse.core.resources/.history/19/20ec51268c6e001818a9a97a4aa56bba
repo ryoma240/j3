@@ -1,0 +1,49 @@
+package kadai3;
+
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class DrawModel extends Observable{
+
+	  protected Figure drawingFigure;
+	  protected Color currentColor;
+	 int i
+	  public void DrawModel() {
+		  Figure f = null;
+		  currentColor = Color.red;
+	  }
+	  
+	  public void setColor (Color c) {
+		  currentColor = c; 
+	  }
+	  
+	  public Figure getFigure() {
+		  return drawingFigure;
+	  }
+	  
+	public void createRectFigure(int x, int y) {
+			Figure f = new RectangleFigure(x, y, 0, 0, currentColor);
+			drawingFigure = f;
+			setChanged();
+			notifyObservers();
+		
+	}
+
+	public void createOvalFigure(int x, int y) {
+			Figure f = new OvalangleFigure(x, y, 0, 0, currentColor);
+			drawingFigure = f;
+			setChanged();
+			notifyObservers();
+	}
+	  public void reshapeFigure(int x1,int y1,int x2,int y2) {
+	    if (drawingFigure != null) {
+	      drawingFigure.reshape(x1,y1,x2,y2);
+	      setChanged();
+	      notifyObservers();
+	    }
+	  }
+	
+	
+}

@@ -1,0 +1,42 @@
+package kadai3;
+
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.border.*;
+
+public class DrawFrame extends JFrame {
+	
+	gameboad gb;
+	
+	public DrawFrame() {
+		
+		//panelの用意
+		JPanel  p1=new JPanel(),p2=new JPanel();
+		gb = new gameboad();
+		
+		this.setBackground(Color.black);
+		this.setTitle("9x9game");
+		this.setSize(1000, 1000);
+		
+		p2.setLayout(new GridLayout(3,3));
+		p2.add(gb.view1);
+		p2.add(gb.view2);
+		p2.add(gb.view3);
+		p2.add(gb.view4);
+		p2.add(gb.view5);
+		p2.add(gb.view6);
+		p2.add(gb.view7);
+		p2.add(gb.view8);
+		p2.add(gb.view9);
+		
+		this.add(p2,BorderLayout.CENTER);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+
+	public static void main(String argv[]) {
+		new DrawFrame();
+	}
+}

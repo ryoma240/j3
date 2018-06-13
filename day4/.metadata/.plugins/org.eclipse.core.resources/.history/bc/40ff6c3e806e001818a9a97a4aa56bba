@@ -1,0 +1,32 @@
+package kadai3;
+
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.border.*;
+
+public class DrawFrame extends JFrame {
+	
+	gameboad gb;
+	toolbar t;
+	
+	public DrawFrame() {
+		gb = new gameboad();
+		t = new toolbar();
+		
+		this.setBackground(Color.black);
+		this.setTitle("9x9game");
+		this.setSize(1500, 1000);
+		
+		
+		this.add(gb.p,BorderLayout.CENTER);
+		this.add(t.tb,BorderLayout.NORTH);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+
+	public static void main(String argv[]) {
+		new DrawFrame();
+	}
+}

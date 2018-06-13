@@ -1,0 +1,18 @@
+package kadai3;
+
+import javax.swing.*;
+import java.awt.*;
+public class toolbar extends JFrame{
+	String[] cmlst1 = {"red", "blue", "yellow"};
+	
+	JToolBar tb;
+	JComboBox cm1,cm2;
+	JPanel p1;
+	JLabel b1,b2;
+	public toolbar() {
+		tb = new JToolBar();
+		tb.setLayout(new GridLayout(1,4));
+		
+	}
+	
+}

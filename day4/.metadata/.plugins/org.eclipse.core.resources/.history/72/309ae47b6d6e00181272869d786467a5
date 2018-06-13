@@ -1,0 +1,15 @@
+package kadai3;
+
+import javax.swing.*;
+import java.awt.*;
+public class toolbar extends JFrame{
+	
+	JToolBar tb;
+	JComboBox cm1,cm2;
+	JPanel p1;
+	JLabel b1,b2;
+	public toolbar() {
+		
+	}
+	
+}

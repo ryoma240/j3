@@ -1,0 +1,46 @@
+package kadai3;
+
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.border.*;
+
+public class DrawFrame extends JFrame {
+	DrawModel model1,model2,model3,model4;
+	ViewPanel view1, view2, view3, view4;
+	DrawController cont1,cont2,cont3,cont4;
+
+	public DrawFrame() {
+		model1 = new DrawModel();
+		model2 = new DrawModel();
+		model3 = new DrawModel();
+		model4 = new DrawModel();
+		cont1 = new DrawController(model1);
+		cont2 = new DrawController(model2);
+		cont3 = new DrawController(model3);
+		cont4 = new DrawController(model4);
+		view1 = new ViewPanel(model1, cont1);
+		view2 = new ViewPanel(model2, cont2);
+		view3 = new ViewPanel(model3, cont3);
+		view4 = new ViewPanel(model4, cont4);
+		view1.setBorder(new LineBorder(Color.blue,3));
+		view2.setBorder(new LineBorder(Color.blue,3));
+		view3.setBorder(new LineBorder(Color.blue,3));
+		view4.setBorder(new LineBorder(Color.blue,3));
+		this.setBackground(Color.black);
+		this.setTitle("Draw Editor");
+		this.setSize(1000, 1000);
+		this.setLayout(new GridLayout(2,2));
+		this.add(view1);
+		this.add(view2);
+		this.add(view3);
+		this.add(view4);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+
+	public static void main(String argv[]) {
+		new DrawFrame();
+	}
+}

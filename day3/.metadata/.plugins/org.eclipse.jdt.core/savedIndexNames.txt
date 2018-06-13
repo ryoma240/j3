@@ -1,3 +1,3 @@
-INDEX VERSION 1.130+/home2/y2015/m1511179/.ced_centos/mics1/j3/day3/.metadata/.plugins/org.eclipse.jdt.core
+INDEX VERSION 1.130+/mnt/My file/mics1/j3/day3/.metadata/.plugins/org.eclipse.jdt.core
 3828134747.index
 170054263.index

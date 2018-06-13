@@ -1,0 +1,29 @@
+package kadai3;
+
+import javax.swing.*;
+import java.awt.*;
+public class toolbar extends JFrame{
+	String[] cmlist1 = {"red", "blue", "yellow"}, cmlist2 = {"四角","円"};
+	JToolBar tb;
+	JComboBox cm1,cm2,cm3,cm4;
+	JPanel p1;
+	JLabel b1,b2;
+	public toolbar() {
+		tb = new JToolBar();
+		tb.setLayout(new GridLayout(1,6));
+		cm1 = new JComboBox(cmlist1);
+		cm2 = new JComboBox(cmlist2);
+		cm3 = new JComboBox(cmlist1);
+		cm4 = new JComboBox(cmlist2);
+		b1 = new JLabel("Player1");
+		b2 = new JLabel("Player2");
+		tb.add(b1);
+		tb.add(cm1);
+		tb.add(cm2);
+		tb.add(b2);
+		tb.add(cm3);
+		tb.add(cm4);
+		
+	}
+	
+}

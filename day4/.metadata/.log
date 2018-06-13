@@ -171,3 +171,549 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
 	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
 	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2018-06-12 19:00:14.891 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /mnt/My file/mics1/j3/day4 -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-06-12 19:00:21.546
+!MESSAGE Removing part descriptor with the 'org.eclipse.wb.core.StructureView' id and the 'Structure' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-06-12 19:00:22.103
+!MESSAGE Removing part descriptor with the 'org.eclipse.wb.core.PaletteView' id and the 'Palette' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-06-12 19:00:22.371
+!MESSAGE Removing part descriptor with the 'zigen.plugin.db.ui.views.TreeView' id and the 'DB ツリー・ビュー' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-06-12 19:00:22.425
+!MESSAGE Removing part descriptor with the 'zigen.plugin.db.ui.views.HistoryView' id and the 'SQL 履歴・ビュー' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-06-12 19:00:22.425
+!MESSAGE Removing part descriptor with the 'zigen.plugin.db.ui.views.SQLExecuteView' id and the 'SQL 実行・ビュー' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-12 19:05:21.108
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-12 19:36:19.183
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-12 19:36:19.183
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-12 19:41:19.325
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-12 19:47:09.953
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 00:44:30.864
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-13 00:54:22.546
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-13 00:54:22.546
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 01:04:06.431
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 01:59:06.521
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-06-13 02:32:02.512
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/jsse.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/sunpkcs11.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/sunec.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/charsets.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/localedata.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/zipfs.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/resources.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/jce.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/jfxrt.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/dnsns.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/cldrdata.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/jfr.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/nashorn.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/jaccess.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/rt.jar
+  [-] /usr/java/jdk1.8.0_161/jre/lib/ext/sunjce_provider.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 02:34:15.725
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 02:41:00.245
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 02:53:23.654
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 03:09:21.318
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-06-13 03:22:12.472
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2018-06-13 03:22:12.472
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2018-06-13 03:22:12.473
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:188)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1739)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1199)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2018-06-13 04:21:43.434 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-13 04:28:17.616
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-13 04:28:17.619
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-06-13 04:30:38.412
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/java-11-openjdk-amd64/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 04:36:27.705
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-13 04:41:41.791
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-13 04:41:41.791
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 04:46:41.907
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 05:23:30.272
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 05:33:47.768
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 05:41:11.761
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 05:48:47.432
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 06:23:09.279
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 07:06:00.808
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 08:24:07.162
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-06-13 09:33:38.036
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /mnt/My file/mics1/j3/day4/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (そのようなファイルやディレクトリはありません)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:159)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
